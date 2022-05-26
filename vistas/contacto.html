@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Estilo/Styles.css">
+</head>
+<body class="bodycont">
+    <header class="header">
+        <!--LOGO-->
+        <h1 class="h1">LimpCor</h1>
+        <nav class="nav">
+            <ul class="ul">
+                <a class="anc" href="../index.html">Inicio</a>
+                <a class="anc" href="./nosotros.html">nosotros</a>
+                <a class="anc" href="./informacion.html">informacion</a>
+                <a class="anc" href="./productos.html">productos</a>
+                <a class="anc" href="./contacto.html">contacto</a>
+            </ul>
+        </nav>
+    </header>
+                  <h1 class="h1cont">Haga su pedido</h1>
+
+        <form class="formcontac" action method="get" enctype="text/plain">
+  
+            <div>
+                <label for="username">Nombre</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <br>
+            <div>
+                <label for="username">Apellido</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <br>
+            <div>
+                <label for="usermail">Mail</label>
+                <input type="text" name="usermail" id="usermail">
+            </div>
+            <br>
+            <div>
+                <label for="usersex">Ingrese su sexo</label>
+                <select name="usersex" id="usersex">
+                    <option value="genero" disabled selected>genero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                 </select>
+            </div>
+            <br>
+            <div>
+                <label for="usertext">Ingrese su pedido</label>
+                <textarea name="usertext" id="usertext" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+            <br>
+            <div>
+                <label for="useracept">Acepta terminos y condiciones</label>
+                <input type="checkbox" name="useracept" id="useracept" value="acepto">Acepto
+                <input type="checkbox" name="useracept" id="useracept" value="no acepto">No acepto
+            
+            </div>
+            </form>
+            <section class="sectioncont">
+                <img class="imagencont" src="../Assets/Imagen1.jpg" alt="productos de limpieza">
+            </section>
+    <br>
+    <footer class="footer">
+        <ul class="ulfooter">
+            <li>contacto</li>
+            <li>como llegar</li>
+            <li>acerca de</li>
+            <li>informacion legal</li>
+        </ul>
+
+    </footer>
+</body>
+</html>
