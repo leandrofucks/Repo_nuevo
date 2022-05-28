@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +11,7 @@
 </head>
 <body class="bodyprod">
     <header class="header">
-        <!--LOGO-->
-        <h1 class="h1">LimpCor</h1>
+        <h1 class="h1" data-aos="zoom-in">LimpCor</h1>
         <nav class="nav">
             <ul class="ul">
                 <a class="anc" href="../index.html">Inicio</a>
@@ -22,11 +23,11 @@
         </nav>
     </header>
     <div class="h1prod">
-            <h1>Nuestros productos</h1> 
+            <h1 data-aos="flip-up">Nuestros productos</h1> 
         </div>
     <main class="mainprod">
         
-        <section class="sectionprod">
+        <section class="sectionprod" data-aos="fade-up">
             <div class="divprod">
                 <img src="../Assets/prod_lista_balde plastico 12 litros.jpg" alt="balde 12 lt"> 
                 <h1>Balde 12 litros</h1>
@@ -63,5 +64,8 @@
         </ul>
 
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

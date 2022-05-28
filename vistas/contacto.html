@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +11,7 @@
 </head>
 <body class="bodycont">
     <header class="header">
-        <!--LOGO-->
-        <h1 class="h1">LimpCor</h1>
+        <h1 class="h1" data-aos="zoom-in">LimpCor</h1>
         <nav class="nav">
             <ul class="ul">
                 <a class="anc" href="../index.html">Inicio</a>
@@ -21,26 +22,26 @@
             </ul>
         </nav>
     </header>
-                  <h1 class="h1cont">Haga su pedido</h1>
+                  <h1 class="h1cont" data-aos="flip-up">Haga su pedido</h1>
 
         <form class="formcontac" action method="get" enctype="text/plain">
   
-            <div>
+            <div data-aos="fade-up">
                 <label for="username">Nombre</label>
                 <input type="text" name="username" id="username">
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <label for="username">Apellido</label>
                 <input type="text" name="username" id="username">
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <label for="usermail">Mail</label>
                 <input type="text" name="usermail" id="usermail">
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <label for="usersex">Ingrese su sexo</label>
                 <select name="usersex" id="usersex">
                     <option value="genero" disabled selected>genero</option>
@@ -49,17 +50,17 @@
                  </select>
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <label for="usertext">Ingrese su pedido</label>
                 <textarea name="usertext" id="usertext" cols="30" rows="10"></textarea>
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Borrar">
             </div>
             <br>
-            <div>
+            <div data-aos="fade-up">
                 <label for="useracept">Acepta terminos y condiciones</label>
                 <input type="checkbox" name="useracept" id="useracept" value="acepto">Acepto
                 <input type="checkbox" name="useracept" id="useracept" value="no acepto">No acepto
@@ -79,5 +80,8 @@
         </ul>
 
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
