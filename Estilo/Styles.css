@@ -7,18 +7,20 @@
 /*index*/
 
 .body{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: gainsboro;
     display: grid;
-    grid-template-rows: 6rem 1fr 5rem;
+    grid-template-rows: 6rem 2.54rem 1fr 7rem;
     grid-template-columns: 50% 50%;
     grid-template-areas: "header header"
+                         "nav nav"
                          "main lorem"
                          "footer footer";
-    align-items: center;
 }                         
-
+.nav{
+    grid-area: nav;
+}
 .header{
     grid-area: header;
 }
@@ -45,7 +47,6 @@
     background-color: rgb(31, 27, 27);
     color: rgb(31, 27, 27);
     position: relative;
-    top: 2px;
 }
 .ul{
     text-align: right;
@@ -70,7 +71,7 @@
 .lorem{
     font-size: 20px;
     text-align: center;
-    padding: 0 0 1rem 0;
+    padding: 1rem;
 
 }
 .footer{
@@ -78,7 +79,7 @@
     font-family: sans-serif;
     font-weight: bold;
     background-image: linear-gradient(black, blue);
-    height:85px;
+    height: auto;
     border-top: solid 2px rgb(31, 27, 27);
 }
 .ulfooter{
@@ -91,55 +92,53 @@
 /*nosotros*/
 
 .bodynos{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: gainsboro;
     display: grid;
-    grid-template-rows: 6rem 5rem 1fr 5rem;
+    grid-template-rows: 6rem 2.54rem 1fr 7rem;
     grid-template-columns: 50% 50%;
     grid-template-areas: "header header"
-                         "h1nos h1nos"
-                         "divnos divnos"
+                         "nav nav"
+                         "container container"
                          "footer footer";
 }
 .header{
     grid-area: header;
 }
+.container-fluid{
+    grid-area: container;
+
+}
 .h1nos{
-    grid-area: h1nos;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: x-large;
-    height: 80px;
+    font-size: 3rem;
+    height: auto;
 }
 .footer{
     grid-area: footer;
 }
-.divnos{
-    grid-area: divnos;
+.uno{
+    width: 50%;
     height: auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.uno, .dos{
     text-align: center;
-    width: 45%;
-    height:auto;
+    padding: 1.5rem;
+
 }
 
 /*informacion*/
 
 .bodyinfo{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: gainsboro;
     display: grid;
-    grid-template-rows: 6rem 1fr 5rem;
+    grid-template-rows: 6rem 2.54rem 1fr 7rem;
     grid-template-columns: 50% 50%;
     grid-template-areas: "header header"
+                         "nav nav"
                          "divinfo divimg"
                          "footer footer";
 }
@@ -179,12 +178,13 @@
 /*contacto*/
 
 .bodycont{
-    height: auto;
+    height: 100vh;
     background-color: gainsboro;
     display: grid;
-    grid-template-rows: 6rem 5rem 1fr 5rem;
+    grid-template-rows: 5.8rem 2.54rem 5rem 1fr 5rem;
     grid-template-columns: 50% 50%;
     grid-template-areas: "header header"
+                         "nav nav"
                          "h1cont h1cont"
                          "formcontac sectioncont"
                          "footer footer";
@@ -226,13 +226,14 @@
 /*productos*/
 
 .bodyprod{
-    height: auto;
+    height: 100vh;
     width: 100%;
     background-color: gainsboro;
     display: grid;
-    grid-template-rows: 6rem 5rem 1fr 5rem;
+    grid-template-rows: 6rem 2.54rem 5rem 1fr 7rem;
     grid-template-columns: 100%;
     grid-template-areas: "header"
+                         "nav"
                          "h1prod"
                          "mainprod"
                          "footer";
@@ -242,7 +243,7 @@
 }
 .sectionprod{
     height: auto;
-    padding: 10rem 0 10rem 0;
+    padding: 6rem 1rem 7rem 1rem;
     display: flex;
     justify-content: space-around;
 }
@@ -262,7 +263,7 @@
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 3rem;
     
 
 }
@@ -283,13 +284,13 @@
     }
     .body{
         height: 67rem;
-        grid-template-rows: 6rem 1fr 1fr 5rem;
+        grid-template-rows: 6rem 5rem 1fr 1fr 7rem;
         grid-template-columns: 100%;
         grid-template-areas: "header"
+                             "nav"
                              "main"
                              'lorem'
                              "footer";
-         align-items: center;
          justify-content: center;
 
     }
@@ -298,9 +299,10 @@
     }
     .bodycont{
         height: 70rem;
-        grid-template-rows: 6rem 1fr 1fr 1fr 5rem;
+        grid-template-rows: 6rem 4.8rem 1fr 1fr 1fr 5rem;
         grid-template-columns: 100%;
         grid-template-areas: "header"
+                             "nav"
                              "h1cont"
                              "sectioncont"
                              "formcontac"
@@ -311,43 +313,41 @@
     }
     .bodyinfo{
         height: 55rem;
-        grid-template-rows: 6rem 1fr 1fr 5rem;
+        grid-template-rows: 6rem 5rem 1fr 1fr 5rem;
         grid-template-columns: 100%;
         grid-template-areas: "header"
+                             "nav"
                              "divimg"
                              "divinfo"
                              "footer";
-        align-items: center;
         justify-content: center;
     }
     .bodynos{
-        grid-template-rows: 6rem 10rem 1fr 5rem;
+        grid-template-rows: 6rem 4.8rem 1fr 5rem;
         grid-template-columns: 100%;
         grid-template-areas: "header"
-                             "h1nos"
-                             "divnos"
+                             "nav"
+                             "container"
                              "footer";
                              align-items: center;
                              justify-content: center;
     }
-    .divnos{
-        padding: 1rem;
-    }
+    
     .bodyprod{
         height: 85rem;
-        grid-template-rows: 6rem 11rem 1fr 5rem;
+        grid-template-rows: 6rem 5rem 11rem 1fr 7rem;
         grid-template-columns: 100%;
         grid-template-areas: "header"
+                             "nav"
                              "h1prod"
                              "mainprod"
                              "footer";
-         align-items: center;
          justify-content: center;
     }
     .sectionprod{
         display: flex;
         flex-direction: column;
-        padding: 1rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
 
 }

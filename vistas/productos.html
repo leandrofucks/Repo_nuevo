@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
@@ -12,19 +13,31 @@
 <body class="bodyprod">
     <header class="header">
         <h1 class="h1" data-aos="zoom-in">LimpCor</h1>
+     </header>
+
         <nav class="nav">
-            <ul class="ul">
-                <a class="anc" href="../index.html">Inicio</a>
-                <a class="anc" href="./nosotros.html">nosotros</a>
-                <a class="anc" href="./informacion.html">informacion</a>
-                <a class="anc" href="./productos.html">productos</a>
-                <a class="anc" href="./contacto.html">contacto</a>
-            </ul>
+            <ul class="nav nav-tabs">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./informacion.html">Informacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
         </nav>
-    </header>
-    <div class="h1prod">
-            <h1 data-aos="flip-up">Nuestros productos</h1> 
-        </div>
+   
+    
+            <h1 class="h1prod" data-aos="flip-up">Nuestros productos</h1> 
     <main class="mainprod">
         
         <section class="sectionprod" data-aos="fade-up">
@@ -67,5 +80,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="../js/bootstrap.bundle.js"></script>
 </body>
 </html>

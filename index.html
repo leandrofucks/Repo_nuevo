@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
@@ -12,17 +13,27 @@
 <body class="body">
     <header class="header">
         <h1 class="h1" data-aos="zoom-in">LimpCor</h1>
-        <nav class="nav">
-            <ul class="ul">
-                <a class="anc" href="./index.html">Inicio</a>
-                <a class="anc" href="./vistas/nosotros.html">nosotros</a>
-                <a class="anc" href="./vistas/informacion.html">informacion</a>
-                <a class="anc" href="./vistas/productos.html">productos</a>
-                <a class="anc" href="./vistas/contacto.html">contacto</a>
-            </ul>
-        </nav>
-    </header>
-    <main class="main">
+     </header>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./vistas/nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./vistas/informacion.html">Informacion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./vistas/productos.html">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+      </li>
+    </ul>
+ 
+ 
+         <main class="main">
             <picture>
                 <img class="imagenindex" src="./Assets/Imagen1.jpg" alt="productos limpieza">
             </picture>
@@ -43,5 +54,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="./js/bootstrap.bundle.js"></script>
 </body>
 </html>
