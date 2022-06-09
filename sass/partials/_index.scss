@@ -1,0 +1,51 @@
+/*index*/
+
+.body{
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+}                         
+
+.header{
+    background-image: linear-gradient(blue,rgb(31,27,27));
+    height: 6rem;
+}
+.h1{
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: gainsboro;
+}
+.nav{
+    background-color: rgb(31, 27, 27);
+    color: rgb(31, 27, 27);
+    position: relative;
+}
+.ul{
+    position: relative;
+}
+.imgindex{
+    height: auto;
+    width: 100%;
+}
+.lorem{
+    font-size: 21px;
+    text-align: center;
+    padding: 1rem;
+}
+.footer{
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(black, blue);
+    height: auto;
+    border-top: solid 2px rgb(31, 27, 27);
+
+&_ul{
+    position: relative;
+    left: 7px;
+    list-style-type: none;
+    color: gainsboro;
+}
+}

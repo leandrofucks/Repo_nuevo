@@ -1,0 +1,28 @@
+/*contacto*/
+
+.bodycont{
+    height: 100vh;
+    background-color: gainsboro;
+    align-items: center;
+}
+.sectioncont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagencont{
+    height: auto;
+    width: 100%;
+}
+.formcontac{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 3rem;
+}
+.h1cont{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}

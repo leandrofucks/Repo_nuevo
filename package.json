@@ -1,0 +1,25 @@
+{
+  "name": "raiznpm",
+  "version": "1.0.0",
+  "description": "un paquete de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css": "node-sass --include-path scss sass/main.scss Estilo/Styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrofucks/Repo_nuevo.git"
+  },
+  "author": "Leandro Fucks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrofucks/Repo_nuevo/issues"
+  },
+  "homepage": "https://github.com/leandrofucks/Repo_nuevo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

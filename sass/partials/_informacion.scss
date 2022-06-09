@@ -1,0 +1,18 @@
+/*informacion*/
+
+.bodyinfo{
+    height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+}
+.imginfo{
+    height: auto;
+    width: 100%;
+}
+.divinfo{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: space-between;
+     font-size: x-large;
+}

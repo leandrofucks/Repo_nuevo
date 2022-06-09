@@ -1,219 +1,157 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-}
-
 /*index*/
+.body {
+  height: 100vh;
+  width: 100%;
+  background-color: gainsboro; }
 
-.body{
-    height: 100vh;
-    width: 100%;
-    background-color: gainsboro;
-}                         
+.header {
+  background-image: linear-gradient(blue, #1f1b1b);
+  height: 6rem; }
 
-.header{
-    background-image: linear-gradient(blue,rgb(31,27,27));
-    height: 6rem;
-}
-.h1{
-    text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-family: sans-serif;
-    color: gainsboro;
-}
-.nav{
-    background-color: rgb(31, 27, 27);
-    color: rgb(31, 27, 27);
-    position: relative;
-}
-.ul{
-    position: relative;
-}
-.imgindex{
-    height: auto;
-    width: 100%;
-}
-.lorem{
-    font-size: 21px;
-    text-align: center;
-    padding: 1rem;
-}
-.footer{
-    font-style: normal;
-    font-family: sans-serif;
-    font-weight: bold;
-    background-image: linear-gradient(black, blue);
-    height: auto;
-    border-top: solid 2px rgb(31, 27, 27);
-}
-.ulfooter{
+.h1 {
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-family: sans-serif;
+  color: gainsboro; }
+
+.nav {
+  background-color: #1f1b1b;
+  color: #1f1b1b;
+  position: relative; }
+
+.ul {
+  position: relative; }
+
+.imgindex {
+  height: auto;
+  width: 100%; }
+
+.lorem {
+  font-size: 21px;
+  text-align: center;
+  padding: 1rem; }
+
+.footer {
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(black, blue);
+  height: auto;
+  border-top: solid 2px #1f1b1b; }
+  .footer_ul {
     position: relative;
     left: 7px;
     list-style-type: none;
-    color: gainsboro;
-}
+    color: gainsboro; }
 
 /*nosotros*/
+.bodynos {
+  height: 100vh;
+  width: 100%;
+  background-color: gainsboro; }
 
-.bodynos{
-    height: 100vh;
-    width: 100%;
-    background-color: gainsboro;
-}
-.h1nos{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    height: auto;
-}
-.uno{
-    height: auto;
-    font-size: large;
-    text-align: center;
-    padding: 1.5rem;
-}
+.h1nos {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  height: auto; }
+
+.uno {
+  height: auto;
+  font-size: large;
+  text-align: center;
+  padding: 1.5rem; }
 
 /*informacion*/
+.bodyinfo {
+  height: 100vh;
+  width: 100%;
+  background-color: gainsboro; }
 
-.bodyinfo{
-    height: 100vh;
-    width: 100%;
-    background-color: gainsboro;
-}
-.imginfo{
-    height: auto;
-    width: 100%;
-}
-.divinfo{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     align-content: space-between;
-     font-size: x-large;
-}
+.imginfo {
+  height: auto;
+  width: 100%; }
 
-/*contacto*/
-
-.bodycont{
-    height: 100vh;
-    background-color: gainsboro;
-    align-items: center;
-}
-.sectioncont{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.imagencont{
-    height: auto;
-    width: 100%;
-}
-.formcontac{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    margin: 3rem;
-}
-.h1cont{
-    font-size: 60px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
+.divinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  font-size: x-large; }
 
 /*productos*/
+.bodyprod {
+  height: 100vh;
+  width: 100%;
+  background-color: gainsboro; }
 
-.bodyprod{
-    height: 100vh;
-    width: 100%;
-    background-color: gainsboro;  
-}
-.mainprod{
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.h1prod{
-    height: auto;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-}
-.divprod{
-    border: solid 3px rgb(31, 27, 27);
-    text-align: center;
-} 
-.divprod2{
-    margin: 3rem 1rem 5rem 1rem;
-}
+.mainprod {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
+.h1prod {
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem; }
+
+.divprod {
+  border: solid 3px #1f1b1b;
+  text-align: center; }
+
+.divprod2 {
+  margin: 3rem 1rem 5rem 1rem; }
+
+/*contacto*/
+.bodycont {
+  height: 100vh;
+  background-color: gainsboro;
+  align-items: center; }
+
+.sectioncont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.imagencont {
+  height: auto;
+  width: 100%; }
+
+.formcontac {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin: 3rem; }
+
+.h1cont {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center; }
 
 /* estilo mobile*/
-
-@media screen and (max-width: 480px){
-    .ul{
-        text-align: center;
-
-    }
-    .body{
-        height: 67rem;
-        grid-template-rows: 6rem 5rem 1fr 1fr 7rem;
-        grid-template-columns: 100%;
-        grid-template-areas: "header"
-                             "nav"
-                             "main"
-                             'lorem'
-                             "footer";
-         justify-content: center;
-
-    }
-    .lorem{
-        padding: 1rem;
-    }
-    .bodycont{
-        height: 70rem;
-        grid-template-rows: 6rem 4.8rem 1fr 1fr 1fr 5rem;
-        grid-template-columns: 100%;
-        grid-template-areas: "header"
-                             "nav"
-                             "h1cont"
-                             "sectioncont"
-                             "formcontac"
-                             "footer";
-        align-items: center;
-        justify-content: center;
-
-    }
-    .bodyinfo{
-        height: 55rem;
-        justify-content: center;
-    }
-    .bodynos{
-        grid-template-rows: 6rem 4.8rem 1fr 5rem;
-        grid-template-columns: 100%;
-        grid-template-areas: "header"
-                             "nav"
-                             "container"
-                             "footer";
-                             align-items: center;
-                             justify-content: center;
-    }
-    
-    .bodyprod{
-        height: 85rem;
-         justify-content: center;
-    
-    }
-   
-    .sectionprod{
-        display: flex;
-        flex-direction: column;
-        padding: 1rem 1.5rem 1rem 1.5rem;
-    }
-
-}
+@media screen and (max-width: 480px) {
+  .ul {
+    text-align: center; }
+  .body {
+    height: 67rem;
+    justify-content: center; }
+  .lorem {
+    padding: 1rem; }
+  .bodycont {
+    height: 70rem;
+    align-items: center;
+    justify-content: center; }
+  .bodyinfo {
+    justify-content: center; }
+  .bodynos {
+    align-items: center;
+    justify-content: center; }
+  .bodyprod {
+    height: 85rem;
+    justify-content: center; } }

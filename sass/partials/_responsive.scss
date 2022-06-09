@@ -1,0 +1,36 @@
+/* estilo mobile*/
+
+@media screen and (max-width: 480px){
+    .ul{
+        text-align: center;
+
+    }
+    .body{
+        height: 67rem;
+         justify-content: center;
+
+    }
+    .lorem{
+        padding: 1rem;
+    }
+    .bodycont{
+        height: 70rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .bodyinfo{
+        justify-content: center;
+    }
+    .bodynos{
+         align-items: center;
+         justify-content: center;
+    }
+    
+    .bodyprod{
+        height: 85rem;
+         justify-content: center;
+    
+    } 
+
+}
