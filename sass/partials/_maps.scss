@@ -1,0 +1,10 @@
+$colores: (
+    negro: #1f1b1b,
+    azul: blue );
+
+.colornegro {
+    color: map-get($map: $colores, $key: negro);
+}
+.colorazul {
+    color: map-get($map: $colores, $key: azul);
+}

@@ -1,0 +1,18 @@
+@mixin panta($height, $width){
+   height: $height;
+   width: $width;
+}
+
+.pantagrande{
+    @include panta(100vh, auto)
+}
+
+@mixin supercenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.supercenter{
+    @include supercenter
+}

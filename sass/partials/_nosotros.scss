@@ -3,18 +3,14 @@
 .bodynos{
     height: 100vh;
     width: 100%;
-    background-color: gainsboro;
+    background-color: $vargains;
 }
-.h1nos{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    height: auto;
+.h1nos{ 
+    @extend .h1prod;
+    font-style:italic;
 }
 .uno{
     height: auto;
     font-size: large;
-    text-align: center;
     padding: 1.5rem;
 }

@@ -2,7 +2,7 @@
 .body {
   height: 100vh;
   width: 100%;
-  background-color: gainsboro; }
+  background-color: #d4d1d1; }
 
 .header {
   background-image: linear-gradient(blue, #1f1b1b);
@@ -13,7 +13,7 @@
   font-size: 70px;
   font-style: normal;
   font-family: sans-serif;
-  color: gainsboro; }
+  color: #d4d1d1; }
 
 .nav {
   background-color: #1f1b1b;
@@ -29,7 +29,6 @@
 
 .lorem {
   font-size: 21px;
-  text-align: center;
   padding: 1rem; }
 
 .footer {
@@ -43,32 +42,27 @@
     position: relative;
     left: 7px;
     list-style-type: none;
-    color: gainsboro; }
+    color: #d4d1d1; }
 
 /*nosotros*/
 .bodynos {
   height: 100vh;
   width: 100%;
-  background-color: gainsboro; }
+  background-color: #d4d1d1; }
 
 .h1nos {
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  height: auto; }
+  font-style: italic; }
 
 .uno {
   height: auto;
   font-size: large;
-  text-align: center;
   padding: 1.5rem; }
 
 /*informacion*/
 .bodyinfo {
   height: 100vh;
   width: 100%;
-  background-color: gainsboro; }
+  background-color: #d4d1d1; }
 
 .imginfo {
   height: auto;
@@ -85,7 +79,7 @@
 .bodyprod {
   height: 100vh;
   width: 100%;
-  background-color: gainsboro; }
+  background-color: #d4d1d1; }
 
 .mainprod {
   height: auto;
@@ -93,7 +87,7 @@
   flex-direction: column;
   justify-content: space-around; }
 
-.h1prod {
+.h1prod, .h1nos {
   height: auto;
   text-align: center;
   font-family: sans-serif;
@@ -110,7 +104,7 @@
 /*contacto*/
 .bodycont {
   height: 100vh;
-  background-color: gainsboro;
+  background-color: #d4d1d1;
   align-items: center; }
 
 .sectioncont {
@@ -155,3 +149,18 @@
   .bodyprod {
     height: 85rem;
     justify-content: center; } }
+
+.colornegro {
+  color: #1f1b1b; }
+
+.colorazul {
+  color: blue; }
+
+.pantagrande {
+  height: 100vh;
+  width: auto; }
+
+.supercenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
