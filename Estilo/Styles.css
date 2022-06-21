@@ -17,11 +17,19 @@
 
 .nav {
   background-color: #1f1b1b;
-  color: #1f1b1b;
-  position: relative; }
+  color: #dbcfcf;
+  position: relative;
+  padding: 0; }
 
-.ul {
-  position: relative; }
+.linav {
+  color: white;
+  text-decoration: none; }
+
+.pnav {
+  font-size: x-large;
+  font-weight: bold;
+  position: relative;
+  left: 40px; }
 
 .imgindex {
   height: auto;

@@ -19,11 +19,19 @@
 }
 .nav{
     background-color: rgb(31, 27, 27);
-    color: rgb(31, 27, 27);
+    color: rgb(219, 207, 207);
     position: relative;
+    padding: 0;
 }
-.ul{
+.linav{
+    color: white;
+    text-decoration: none;
+}
+.pnav{
+    font-size: x-large;
+    font-weight: bold;
     position: relative;
+    left: 40px;
 }
 .imgindex{
     height: auto;
