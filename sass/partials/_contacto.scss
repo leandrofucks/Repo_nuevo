@@ -21,8 +21,6 @@
     margin: 3rem;
 }
 .h1cont{
-    font-size: 60px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: center;
+   @extend .h1prod;
+   margin: 50px;
 }

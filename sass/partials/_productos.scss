@@ -10,13 +10,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 60px;
 }
 .h1prod{
     height: auto;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin: 50px;
 }
 .divprod{
     border: solid 3px rgb(31, 27, 27);

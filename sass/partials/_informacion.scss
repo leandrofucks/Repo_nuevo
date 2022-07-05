@@ -1,13 +1,16 @@
 /*informacion*/
 
 .bodyinfo{
-    height: 100vh;
-    width: 100%;
+    height: 100%;
     background-color: $vargains;
 }
+.secinfo{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 .imginfo{
-    height: auto;
-    width: 100%;
+    height: 50%;
+    margin-top: 70px;
 }
 .divinfo{
      display: flex;

@@ -2,16 +2,17 @@
 
 .body{
     height: 100vh;
-    width: 100%;
     background-color: $vargains;
 }                         
 
 .header{
     background-image: linear-gradient(blue,rgb(31,27,27));
-    height: 6rem;
+    height: 8rem;
 }
 .h1{
     text-align: center;
+    position: relative;
+    top: 15px;
     font-size: 70px;
     font-style: normal;
     font-family: sans-serif;
@@ -22,6 +23,9 @@
     color: rgb(219, 207, 207);
     position: relative;
     padding: 0;
+}
+.hambu{
+    margin-right: 40px;
 }
 .linav{
     color: white;
@@ -36,21 +40,23 @@
 .imgindex{
     height: auto;
     width: 100%;
+    margin: 50px 15px 40px 15px;
 }
 .lorem{
     font-size: 21px;
-    padding: 1rem;
+    padding: 3rem;
+    
 }
 .footer{
+    width:auto;
     font-style: normal;
     font-family: sans-serif;
     font-weight: bold;
     background-image: linear-gradient(black, blue);
-    height: auto;
     border-top: solid 2px rgb(31, 27, 27);
-
-&_ul{
     position: relative;
+    top: 20px;
+&_ul{
     left: 7px;
     list-style-type: none;
     color: $vargains;
